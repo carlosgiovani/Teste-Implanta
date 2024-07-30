@@ -1,0 +1,45 @@
+<div mat-dialog-title>
+  <h1>Formulário</h1>
+</div>
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <div mat-dialog-content class="content">
+    <div class="row">
+      <mat-form-field appearance="outline">
+        <mat-label>Nome</mat-label>
+        <input
+          matInput
+          placeholder="nome"
+          type="text"
+          formControlName="primeiroNome"
+        />
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Cargo</mat-label>
+        <input
+          matInput
+          placeholder="cargo"
+          type="text"
+          formControlName="cargo"
+        />
+      </mat-form-field>
+    </div>
+
+    <mat-form-field appearance="outline" class="w-100">
+      <mat-label>e-mail</mat-label>
+      <input
+        matInput
+        placeholder="e-mail"
+        type="email"
+        formControlName="email"
+      />
+    </mat-form-field>
+  </div>
+  <div mat-dialog-actions class="action-button">
+    <!-- <button mat-raised-button type="button" [mat-dialog-close]="false">
+      Cancelar
+    </button> -->
+    <button mat-flat-button color="primary" type="submit">
+      {{ data ? "Atualizar" : "Salvar" }}
+    </button>
+  </div>
+</form>

@@ -1,0 +1,73 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "usuarios": [
+    {
+      "primeiroNome": "Carlos",
+      "cargo": "Front-end",
+      "email": "carlos@implanta.com",
+      "id": "29cc"
+    },
+    {
+      "id": "c604",
+      "primeiroNome": "Giovani",
+      "cargo": "Dev",
+      "email": "dev@teste.com"
+    },
+    {
+      "id": "3e95",
+      "primeiroNome": "Casilo",
+      "cargo": "FrontEnd",
+      "email": "casilo@gmail.com"
+    },
+    {
+      "primeiroNome": "Juca",
+      "cargo": "testador",
+      "email": "tes@tes.com",
+      "id": "1b00"
+    },
+    {
+      "id": "9e5e",
+      "primeiroNome": "joao",
+      "cargo": "analista",
+      "email": "joao@tudo.com"
+    },
+    {
+      "id": "3d7d",
+      "primeiroNome": "Joana",
+      "cargo": "tester",
+      "email": "joana@joana.com"
+    },
+    {
+      "id": "2c07",
+      "primeiroNome": "Pedro",
+      "cargo": "testador",
+      "email": "tes@tes.com"
+    }
+  ]
+}
