@@ -47,8 +47,8 @@ export class AddEditComponent implements OnInit {
           .subscribe({
             next: (val: any) => {
               alert('Usuário atualizado.');
-              this.dialogRef.close(true);
-              this.usuarioService.enviarDados('teste');
+              this.dialogRef.close();
+              this.usuarioService.enviarDados('atualizado');
             },
             error: (err: any) => {
               console.error(err);
@@ -58,8 +58,8 @@ export class AddEditComponent implements OnInit {
         this.usuarioService.adicionarUsuario(this.form.value).subscribe({
           next: (val: any) => {
             alert('Usuário cadastrado.');
-            this.dialogRef.close(true);
-            this.usuarioService.enviarDados('teste');
+            this.dialogRef.close();
+            this.usuarioService.enviarDados('criado');
           },
           error: (err: any) => {
             console.error(err);
