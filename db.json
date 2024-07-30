@@ -1,31 +1,4 @@
 {
-  "posts": [
-    {
-      "id": "1",
-      "title": "a title",
-      "views": 100
-    },
-    {
-      "id": "2",
-      "title": "another title",
-      "views": 200
-    }
-  ],
-  "comments": [
-    {
-      "id": "1",
-      "text": "a comment about post 1",
-      "postId": "1"
-    },
-    {
-      "id": "2",
-      "text": "another comment about post 1",
-      "postId": "1"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
   "usuarios": [
     {
       "primeiroNome": "Carlos",
@@ -48,14 +21,14 @@
     {
       "primeiroNome": "Juca",
       "cargo": "testador",
-      "email": "tes@tes.com",
+      "email": "tes@email.com.br",
       "id": "1b00"
     },
     {
-      "id": "9e5e",
-      "primeiroNome": "joao",
-      "cargo": "analista",
-      "email": "joao@tudo.com"
+      "primeiroNome": "João",
+      "cargo": "Analista",
+      "email": "joao@tudo.com",
+      "id": "9e5e"
     },
     {
       "id": "3d7d",
@@ -68,6 +41,12 @@
       "primeiroNome": "Pedro",
       "cargo": "testador",
       "email": "tes@tes.com"
+    },
+    {
+      "id": "ac8c",
+      "primeiroNome": "Marta",
+      "cargo": "manager",
+      "email": "marta@teste.com"
     }
   ]
 }

@@ -17,7 +17,7 @@ export class UsuariosService {
   }
 
   atualizarUsuario(id: number, data: any): Observable<any> {
-    return this.http.put(`http://localhost:3000/usuarios/${id}`, data);
+    return this.http.put(`${this.urlAPI}/${id}`, data);
   }
 
   listarUsuarios(): Observable<any> {
@@ -25,7 +25,7 @@ export class UsuariosService {
   }
 
   deletarUsuario(id: number): Observable<any> {
-    return this.http.delete(`http://localhost:3000/usuarios/${id}`);
+    return this.http.delete(`${this.urlAPI}/${id}`);
   }
 
   enviarDados(dados: any) {
